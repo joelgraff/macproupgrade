@@ -113,6 +113,12 @@ http://blog.sergem.net/boot-ubuntu-18-04-1-live-usb-on-macpro-11/#comment-467
 
 https://mattgadient.com/linux-dvd-images-and-how-to-for-32-bit-efi-macs-late-2006-models/
 
+## Known Issues
+
+How To Get Around 5530 Error while upgrade Mac Pro 1,1 EFI To 2,1 - New Procedure
+
+https://www.youtube.com/watch?v=1Z6FEd8j5Jo
+
 
 
 
