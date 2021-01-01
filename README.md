@@ -9,9 +9,9 @@ There are two things which are required:  The firmware itself (available in this
 
 ## The "B00" Firmware Upgrade
 
-Note that there are two versions of the upgrade tool.  There is a frimware revision for the Mac Pro 1,1 that does not work with the orignal tool.  Specifically, MP11.005D.B00 requires the modified version.  The firmware version can be determined using Apple Icon -> About This Mac -> More Info -> System Report.  Near the bottom of the report, the firmware revision will be listed.  Firmware ending in "B00" requires the version named "Mac Pro 2006-2007 Firmware Tool (005D-B00).zip"
+Note that there are two versions of the upgrade tool.  There is a firmware revision for the Mac Pro 1,1 that does not work with the orignal tool.  Specifically, MP11.005D.B00 requires the modified version.  The firmware version can be determined using Apple Icon -> About This Mac -> More Info -> System Report.  Near the bottom of the report, the firmware revision will be listed.  Firmware ending in "B00" requires the version named "Mac Pro 2006-2007 Firmware Tool (005D-B00).zip"
 
-The B00 firmware revision appneded a date code (not shown in the About This Mac -> System Report view) which would cause the original upgrade tool to fail.  Thus, the tool had to be modified to recognize that date code.  Thus far, only two date codes have been identified:  *0709141354* and *0708280936*.
+The B00 firmware revision appended a date code (not shown in the About This Mac -> System Report view) which would cause the original upgrade tool to fail.  Thus, the tool had to be modified to recognize that date code.  Thus far, only two date codes have been identified:  *0709141354* and *0708280936*.
 
 It is likely most B00 firmware revisions use one of these two date codes.  There may be more out there, however.  Modifying the tool to include a new date code is possible with a hex editor, but determining the actual date code may be challenging.  Previously a tool called [GeekBench](https://geekbench.com) was used to identify the date code.  However, older versions of the software which support OSX Lion no longer work as they require a server connection that has been shut down.  At this time, no other information has been found to determine the date code for a B00 firmware on a gen 1,1 Mac Pro.
 
