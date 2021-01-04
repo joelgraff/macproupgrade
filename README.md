@@ -5,7 +5,7 @@ Clone the repo for the files.
 
 # Updating the firmware
 
-There are two things which are required:  The firmware itself (available in this repo or on Apple's support site) and the upgrade tool, also included in this repo.  Copy them to the Mac Pro desktop for convenience.  Extract the Upgrade Tool zip to the desktop.
+There are two things which are required:  The firmware itself, which is available in this repo as well as Apple's support site for the time being, and the upgrade tool, also included in this repo.  Copy them to the Mac Pro desktop for convenience.  Extract the Upgrade Tool zip to the desktop.  See the (Links) for links to the firmware from Apple's website and other useful resources.
 
 ## The "B00" Firmware Upgrade
 
@@ -34,6 +34,8 @@ Open the RAM Disk.  Then, right-click on the Upgrade Tool and select "Show Conte
 - MacProEFIUpdater2007.patch
 
 ## Modify the extract script
+
+### Note:  It may not be necessary to modify the script in all cases.  ###
 
 Right click on *ExtractAndPatchEFIFiles.sh* and edit it with a text editor.  In the file, four lines need to be removed:
 
@@ -90,6 +92,9 @@ There are other approaches to installing Ubuntu on the early Mac Pro systems whi
 
 ## Firmware
 
+Video detailing the process of the firmware upgrade described in this README:
+https://www.youtube.com/watch?v=1Z6FEd8j5Jo
+
 Original netkas thread with the Upgrade Tool.  Link is to page 13, which includes the modified tool for the B00 firmware:
 http://forum.netkas.org/index.php/topic,1094.180.html
 
@@ -97,7 +102,7 @@ MacRumors forum thread detailing modifying the tool to install firmware upgrade:
 https://forums.macrumors.com/threads/mac-pro-1-1-firmware-upgrade-issues.2174741/
 
 Apple Support page for Mac Pro firmware:
-https://support.apple.com/downloads/macpro
+https://download.info.apple.com/Mac_OS_X/061-3943.20070927.pO93v/MacProFirmwareUpdate1.2.dmg
 
 ## Ubuntu Installation
 
